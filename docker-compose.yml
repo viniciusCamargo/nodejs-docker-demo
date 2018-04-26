@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     build: .
-    image: nodejs_docker_demo_dev
+    image: nodejs_docker_demo:dev
     command: npm run dev
     volumes:
     - .:/usr/app/

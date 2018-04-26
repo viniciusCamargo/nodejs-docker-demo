@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     build: .
-    image: nodejs_docker_demo_prod
+    image: nodejs_docker_demo:prod
     environment:
       NODE_ENV: production
     ports:
